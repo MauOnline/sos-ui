@@ -20,3 +20,23 @@
     background-color: #17a2b8 !important;
     border-color: #17a2b8 !important;
 }
+
+.event-thumbnail{
+    padding: 0 !important;
+    background-color: #fff;
+    border: none !important;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+}
+.event-group-item{
+    position: relative;
+    display: block;
+    padding: .75rem 0.25rem !important;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.event-overview{
+    padding-left: .25em !important;
+}

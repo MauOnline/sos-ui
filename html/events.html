@@ -60,16 +60,17 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)"
+                                role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
                             <div class="dropdown-menu">
-                              <a class="dropdown-item" href="blog.html">Political development</a>
-                              <a class="dropdown-item" href="blog.html">Economy</a>
-                              <a class="dropdown-item" href="blog.html">Culture</a>
-                              <a class="dropdown-item" href="blog.html">Society</a>
-                              <!-- <div class="dropdown-divider"></div> -->
-                              <a class="dropdown-item" href="blog.html">Well being</a>
+                                <a class="dropdown-item" href="blog.html">Political development</a>
+                                <a class="dropdown-item" href="blog.html">Economy</a>
+                                <a class="dropdown-item" href="blog.html">Culture</a>
+                                <a class="dropdown-item" href="blog.html">Society</a>
+                                <!-- <div class="dropdown-divider"></div> -->
+                                <a class="dropdown-item" href="blog.html">Well being</a>
                             </div>
-                          </li>
+                        </li>
 
                         <li class="nav-item">
                             <a class="nav-link" href="resources.html">Resources</a>
@@ -88,88 +89,351 @@
         </div>
 
         <div id="layout-content" class="row">
-            <div id="layout-left-content" class="col col-sm-9">
-                <div class="list-group" id="" role="tablist">
-                    <a href="#" class="list-group-item list-group-item-action active">
-                      <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">List group item heading</h5>
-                        <small>3 days ago</small>
-                      </div>
-                      <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-                      <small>Donec id elit non mi porta.</small>
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-action">
-                      <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">List group item heading</h5>
-                        <small class="text-muted">3 days ago</small>
-                      </div>
-                      <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-                      <small class="text-muted">Donec id elit non mi porta.</small>
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-action">
-                      <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">List group item heading</h5>
-                        <small class="text-muted">3 days ago</small>
-                      </div>
-                      <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-                      <small class="text-muted">Donec id elit non mi porta.</small>
-                    </a>
-                  </div>
+            <div id="layout-left-content" class="col col-sm-6">
+                <div class="row">
+
+                    <!-- List group -->
+                    <div class="list-group top-buffer-twenty" id="alerts-list" role="tablist">
+                        <a data-toggle="list" href="#alert001" role="tab"
+                            class="list-group-item list-group-item-action event-group-item active">
+                            <div class="row no-gutters">
+
+                                <div class="col-md-4">
+                                    <img width="200"
+                                        src="https://s2.qwant.com/thumbr/0x380/c/1/918bab379d998e1769a1a45ed23334226d81e68617e484301f367a091da21e/711ac290412efee8b5cc887da9fc32eb.jpg?u=http%3A%2F%2Fmedia-cache-ak0.pinimg.com%2F736x%2F71%2F1a%2Fc2%2F711ac290412efee8b5cc887da9fc32eb.jpg&q=0&b=1&p=0&a=1"
+                                        alt="Event title" class="img-thumbnail event-thumbnail">
+
+                                </div>
+                                <div class="col event-overview">
+
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">List group item heading</h5>
+                                        <small class="text-muted"><span
+                                                class="badge badge-primary"><b>15/12/2019</b></span></small>
+                                    </div>
+                                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed
+                                        diam eget
+                                        risus
+                                        varius blandit.</p>
+                                    <small class="text-muted">Donec id elit non mi porta.</small>
+                                </div>
+                            </div>
+                        </a>
+                        <a data-toggle="list" href="#alert002" role="tab"
+                            class="list-group-item list-group-item-action event-group-item">
+                            <div class="row no-gutters">
+
+                                <div class="col-md-4">
+                                    <img width="200"
+                                        src="https://s2.qwant.com/thumbr/0x380/c/1/918bab379d998e1769a1a45ed23334226d81e68617e484301f367a091da21e/711ac290412efee8b5cc887da9fc32eb.jpg?u=http%3A%2F%2Fmedia-cache-ak0.pinimg.com%2F736x%2F71%2F1a%2Fc2%2F711ac290412efee8b5cc887da9fc32eb.jpg&q=0&b=1&p=0&a=1"
+                                        alt="Event title" class="img-thumbnail event-thumbnail">
+
+                                </div>
+                                <div class="col event-overview">
+
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">List group item heading</h5>
+                                        <small class="text-muted"><span
+                                                class="badge badge-primary"><b>15/12/2019</b></span></small>
+                                    </div>
+                                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed
+                                        diam eget
+                                        risus
+                                        varius blandit.</p>
+                                    <small class="text-muted">Donec id elit non mi porta.</small>
+                                </div>
+                            </div>
+                        </a>
+                        <a data-toggle="list" href="#alert003" role="tab"
+                            class="list-group-item list-group-item-action event-group-item">
+                            <div class="row no-gutters">
+
+                                <div class="col-md-4">
+                                    <img width="200"
+                                        src="https://s2.qwant.com/thumbr/0x380/c/1/918bab379d998e1769a1a45ed23334226d81e68617e484301f367a091da21e/711ac290412efee8b5cc887da9fc32eb.jpg?u=http%3A%2F%2Fmedia-cache-ak0.pinimg.com%2F736x%2F71%2F1a%2Fc2%2F711ac290412efee8b5cc887da9fc32eb.jpg&q=0&b=1&p=0&a=1"
+                                        alt="Event title" class="img-thumbnail event-thumbnail">
+
+                                </div>
+                                <div class="col event-overview">
+
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">List group item heading</h5>
+                                        <small class="text-muted"><span
+                                                class="badge badge-primary"><b>15/12/2019</b></span></small>
+                                    </div>
+                                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed
+                                        diam eget
+                                        risus
+                                        varius blandit.</p>
+                                    <small class="text-muted">Donec id elit non mi porta.</small>
+                                </div>
+                            </div>
+                        </a>
+                        <a data-toggle="list" href="#alert004" role="tab"
+                            class="list-group-item list-group-item-action event-group-item">
+                            <div class="row no-gutters">
+
+                                <div class="col-md-4">
+                                    <img width="200"
+                                        src="https://s2.qwant.com/thumbr/0x380/c/1/918bab379d998e1769a1a45ed23334226d81e68617e484301f367a091da21e/711ac290412efee8b5cc887da9fc32eb.jpg?u=http%3A%2F%2Fmedia-cache-ak0.pinimg.com%2F736x%2F71%2F1a%2Fc2%2F711ac290412efee8b5cc887da9fc32eb.jpg&q=0&b=1&p=0&a=1"
+                                        alt="Event title" class="img-thumbnail event-thumbnail">
+
+                                </div>
+                                <div class="col event-overview">
+
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">List group item heading</h5>
+                                        <small class="text-muted"><span
+                                                class="badge badge-primary"><b>15/12/2019</b></span></small>
+                                    </div>
+                                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed
+                                        diam eget
+                                        risus
+                                        varius blandit.</p>
+                                    <small class="text-muted">Donec id elit non mi porta.</small>
+                                </div>
+                            </div>
+                        </a>
+                        <a data-toggle="list" href="#alert005" role="tab"
+                            class="list-group-item list-group-item-action event-group-item">
+                            <div class="row no-gutters">
+
+                                <div class="col-md-4">
+                                    <img width="200"
+                                        src="https://s2.qwant.com/thumbr/0x380/c/1/918bab379d998e1769a1a45ed23334226d81e68617e484301f367a091da21e/711ac290412efee8b5cc887da9fc32eb.jpg?u=http%3A%2F%2Fmedia-cache-ak0.pinimg.com%2F736x%2F71%2F1a%2Fc2%2F711ac290412efee8b5cc887da9fc32eb.jpg&q=0&b=1&p=0&a=1"
+                                        alt="Event title" class="img-thumbnail event-thumbnail">
+
+                                </div>
+                                <div class="col event-overview">
+
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">List group item heading</h5>
+                                        <small class="text-muted"><span
+                                                class="badge badge-primary"><b>15/12/2019</b></span></small>
+                                    </div>
+                                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed
+                                        diam eget
+                                        risus
+                                        varius blandit.</p>
+                                    <small class="text-muted">Donec id elit non mi porta.</small>
+                                </div>
+                            </div>
+                        </a>
+                        <a data-toggle="list" href="#alert006" role="tab"
+                            class="list-group-item list-group-item-action event-group-item">
+                            <div class="row no-gutters">
+
+                                <div class="col-md-4">
+                                    <img width="200"
+                                        src="https://s2.qwant.com/thumbr/0x380/c/1/918bab379d998e1769a1a45ed23334226d81e68617e484301f367a091da21e/711ac290412efee8b5cc887da9fc32eb.jpg?u=http%3A%2F%2Fmedia-cache-ak0.pinimg.com%2F736x%2F71%2F1a%2Fc2%2F711ac290412efee8b5cc887da9fc32eb.jpg&q=0&b=1&p=0&a=1"
+                                        alt="Event title" class="img-thumbnail event-thumbnail">
+
+                                </div>
+                                <div class="col event-overview">
+
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">List group item heading</h5>
+                                        <small class="text-muted"><span
+                                                class="badge badge-primary"><b>15/12/2019</b></span></small>
+                                    </div>
+                                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed
+                                        diam eget
+                                        risus
+                                        varius blandit.</p>
+                                    <small class="text-muted">Donec id elit non mi porta.</small>
+                                </div>
+                            </div>
+                        </a>
+                        <a data-toggle="list" href="#alert007" role="tab"
+                            class="list-group-item list-group-item-action event-group-item">
+                            <div class="row no-gutters">
+
+                                <div class="col-md-4">
+                                    <img width="200"
+                                        src="https://s2.qwant.com/thumbr/0x380/c/1/918bab379d998e1769a1a45ed23334226d81e68617e484301f367a091da21e/711ac290412efee8b5cc887da9fc32eb.jpg?u=http%3A%2F%2Fmedia-cache-ak0.pinimg.com%2F736x%2F71%2F1a%2Fc2%2F711ac290412efee8b5cc887da9fc32eb.jpg&q=0&b=1&p=0&a=1"
+                                        alt="Event title" class="img-thumbnail event-thumbnail">
+
+                                </div>
+                                <div class="col event-overview">
+
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">List group item heading</h5>
+                                        <small class="text-muted"><span
+                                                class="badge badge-primary"><b>15/12/2019</b></span></small>
+                                    </div>
+                                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed
+                                        diam eget
+                                        risus
+                                        varius blandit.</p>
+                                    <small class="text-muted">Donec id elit non mi porta.</small>
+                                </div>
+                            </div>
+                        </a>
+                        <a data-toggle="list" href="#alert008" role="tab"
+                            class="list-group-item list-group-item-action event-group-item">
+                            <div class="row no-gutters">
+
+                                <div class="col-md-4">
+                                    <img width="200"
+                                        src="https://s2.qwant.com/thumbr/0x380/c/1/918bab379d998e1769a1a45ed23334226d81e68617e484301f367a091da21e/711ac290412efee8b5cc887da9fc32eb.jpg?u=http%3A%2F%2Fmedia-cache-ak0.pinimg.com%2F736x%2F71%2F1a%2Fc2%2F711ac290412efee8b5cc887da9fc32eb.jpg&q=0&b=1&p=0&a=1"
+                                        alt="Event title" class="img-thumbnail event-thumbnail">
+
+                                </div>
+                                <div class="col event-overview">
+
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">List group item heading</h5>
+                                        <small class="text-muted"><span
+                                                class="badge badge-primary"><b>15/12/2019</b></span></small>
+                                    </div>
+                                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed
+                                        diam eget
+                                        risus
+                                        varius blandit.</p>
+                                    <small class="text-muted">Donec id elit non mi porta.</small>
+                                </div>
+                            </div>
+                        </a>
+                        <a data-toggle="list" href="#alert009" role="tab"
+                            class="list-group-item list-group-item-action event-group-item">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img width="200"
+                                        src="https://s2.qwant.com/thumbr/0x380/c/1/918bab379d998e1769a1a45ed23334226d81e68617e484301f367a091da21e/711ac290412efee8b5cc887da9fc32eb.jpg?u=http%3A%2F%2Fmedia-cache-ak0.pinimg.com%2F736x%2F71%2F1a%2Fc2%2F711ac290412efee8b5cc887da9fc32eb.jpg&q=0&b=1&p=0&a=1"
+                                        alt="Event title" class="img-thumbnail event-thumbnail">
+                                </div>
+
+                                <div class="col event-overview">
+
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">List group item heading</h5>
+                                        <small class="text-muted"><span
+                                                class="badge badge-primary"><b>15/12/2019</b></span></small>
+                                    </div>
+                                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed
+                                        diam eget
+                                        risus
+                                        varius blandit.</p>
+                                    <small class="text-muted">Donec id elit non mi porta.</small>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <nav aria-label="Page navigation example" class="top-buffer-ten">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
 
-            <div id="layout-right-content" class="col col-sm-3">
-                <!-- Alerts component headers-->
-                <h2 class="latest-alerts-title"><a href="alerts.html" alt="latest alerts" class="text-danger"><i
-                            class="fas fa-exclamation-triangle"></i>&nbsp;Latest alerts</a></h2>
-                <!-- Alerts component items-->
-                <ul class="latest-alerts">
-                    <li class=""><a href="#" alt="">Natural disaster in Haiti&nbsp;-&nbsp;<span
-                                class="badge badge-warning">22/02/2022</span></a></li>
-                    <li class=""><a href="#" alt="">0 People died in country X&nbsp;-&nbsp;<span
-                                class="badge badge-warning">20/02/2022</span></a></li>
-                    <li class=""><a href="#" alt="">Stolen election in country Y&nbsp;-&nbsp;<span
-                                class="badge badge-warning">18/01/2022</span></a></li>
-                    <li class=""><a href="#" alt="">A plane crashed in country Z&nbsp;-&nbsp;<span
-                                class="badge badge-warning">17/01/2022</span></a></li>
-                    <li class=""><a href="#" alt="">African diaspora reaching to AU leaders&nbsp;-&nbsp;<span
-                                class="badge badge-warning">22/02/2021</span></a>
-                    </li>
-                    <li class=""><a href="#" alt="">A simple info list group item&nbsp;-&nbsp;<span
-                                class="badge badge-warning">10/05/2018</span></a></li>
-                    <li class=""><a href="#" alt="">A simple light list group item&nbsp;-&nbsp;<span
-                                class="badge badge-warning">22/02/2017</span></a></li>
-                    <li class=""><a href="#" alt="">A simple dark list group item&nbsp;-&nbsp;<span
-                                class="badge badge-warning">22/02/2016</span></a></li>
-                </ul>
+            <!-- Tab panes -->
+            <div id="layout-right-content" class="col col-sm-6">
+                <div class="tab-content top-buffer-twenty" id="alerts-tabContent">
 
-                <i class="text-danger">Get notified by</i>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="alert-notification-email"
-                        checked="true">
-                    <label class="form-check-label" for="alert-notification-email">
-                        EMAIL
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="alert-notification-sms" disabled>
-                    <label class="form-check-label" for="alert-notification-sms">
-                        SMS (available soon)
-                    </label>
-                </div>
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="basic-addon1">@</span>
+                    <div class="tab-pane text-justify fade show active" id="alert001" role="tabpanel"
+                        aria-labelledby="list-profile-list">
+                        <h1 class="text-center">Next submmit of solution Event in Libreville</h1>
+
+                        <img src="https://s2.qwant.com/thumbr/0x380/c/1/918bab379d998e1769a1a45ed23334226d81e68617e484301f367a091da21e/711ac290412efee8b5cc887da9fc32eb.jpg?u=http%3A%2F%2Fmedia-cache-ak0.pinimg.com%2F736x%2F71%2F1a%2Fc2%2F711ac290412efee8b5cc887da9fc32eb.jpg&q=0&b=1&p=0&a=1"
+                            alt="Event title" class="img-thumbnail event-thumbnail">
+
+                        <h4>The summit of solution in Libreville will be amazing, with guest from the all over the
+                            world.
+                        </h4>
+                        <p>Location: Any address</p>
+                        <p>Organizers: Summit of solution in partnership with Amazing Radio and Afro TV.</p>
+
+                        <p>Tickets (9 left):</p>
+                        Single adult: £15.00
+                        - Two adult: £25.00
+                        - Child: £00.00
+
+                        <p>Register/buy ticket <a href="#" alt="register">here</a></p>
                     </div>
-                    <input type="text" class="form-control" placeholder="Email" aria-label="Email"
-                        aria-describedby="basic-addon1">
-                </div>
+                    <div class="tab-pane fade text-justify" id="alert002" role="tabpanel"
+                        aria-labelledby="list-messages-list">
+                        Tab 2
 
-                <div class="col-auto">
-                    <div class="form-check mb-2">
-                        <input class="form-check-input" type="checkbox" id="autoSizingCheck">
-                        <label class="form-check-label" for="autoSizingCheck">
-                            <i class="text-muted">I accept the <a href="#">conditions and terms of use</a></i>
-                        </label>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Sit amet dictum sit amet justo. Duis at consectetur lorem
+                        donec
+                        massa sapien faucibus. Mi ipsum faucibus vitae aliquet nec ullamcorper sit. Aliquam sem
+                        fringilla ut morbi tincidunt augue interdum. Ultrices in iaculis nunc sed. Ultricies mi quis
+                        hendrerit dolor magna eget est. Vel quam elementum pulvinar etiam non. Arcu cursus euismod
+                        quis
+                        viverra nibh cras pulvinar mattis. Vitae congue mauris rhoncus aenean vel elit.
+                    </div>
+                    <div class="tab-pane fade text-justify" id="alert003" role="tabpanel"
+                        aria-labelledby="list-settings-list">
+                        Tab 3
+
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Sit amet dictum sit amet justo. Duis at consectetur lorem
+                        donec
+                        massa sapien faucibus. Mi ipsum faucibus vitae aliquet nec ullamcorper sit. Aliquam sem
+                        fringilla ut morbi tincidunt augue interdum. Ultrices in iaculis nunc sed. Ultricies mi quis
+                        hendrerit dolor magna eget est. Vel quam elementum pulvinar etiam non. Arcu cursus euismod
+                        quis
+                        viverra nibh cras pulvinar mattis. Vitae congue mauris rhoncus aenean vel elit.
+
+                    </div>
+
+                    <div class="tab-pane fade text-justify" id="alert004" role="tabpanel"
+                        aria-labelledby="list-settings-list">
+                        Tab 4
+
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Sit amet dictum sit amet justo. Duis at consectetur lorem
+                        donec
+                        massa sapien faucibus. Mi ipsum faucibus vitae aliquet nec ullamcorper sit. Aliquam sem
+                        fringilla ut morbi tincidunt augue interdum. Ultrices in iaculis nunc sed. Ultricies mi quis
+                        hendrerit dolor magna eget est. Vel quam elementum pulvinar etiam non. Arcu cursus euismod
+                        quis
+                        viverra nibh cras pulvinar mattis. Vitae congue mauris rhoncus aenean vel elit.
+                    </div>
+
+                    <div class="tab-pane fade text-justify" id="alert005" role="tabpanel"
+                        aria-labelledby="list-settings-list">
+                        Tab 5
+
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Sit amet dictum sit amet justo. Duis at consectetur lorem
+                        donec
+                        massa sapien faucibus. Mi ipsum faucibus vitae aliquet nec ullamcorper sit. Aliquam sem
+                        fringilla ut morbi tincidunt augue interdum. Ultrices in iaculis nunc sed. Ultricies mi quis
+                        hendrerit dolor magna eget est. Vel quam elementum pulvinar etiam non. Arcu cursus euismod
+                        quis
+                        viverra nibh cras pulvinar mattis. Vitae congue mauris rhoncus aenean vel elit.
+                    </div>
+
+                    <div class="tab-pane fade text-justify" id="alert005" role="tabpanel"
+                        aria-labelledby="list-settings-list">
+                        Tab 6
+
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Sit amet dictum sit amet justo. Duis at consectetur lorem
+                        donec
+                        massa sapien faucibus. Mi ipsum faucibus vitae aliquet nec ullamcorper sit. Aliquam sem
+                        fringilla ut morbi tincidunt augue interdum. Ultrices in iaculis nunc sed. Ultricies mi quis
+                        hendrerit dolor magna eget est. Vel quam elementum pulvinar etiam non. Arcu cursus euismod
+                        quis
+                        viverra nibh cras pulvinar mattis. Vitae congue mauris rhoncus aenean vel elit.
                     </div>
                 </div>
             </div>
@@ -181,7 +445,7 @@
                 <h4 class="text-white"><b>Committees</b></h4>
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a class="nav-link text-white active" href="#">Political development</a>
+                        <a class="nav-link text-white" href="#">Political development</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#">Economy</a>
@@ -193,7 +457,8 @@
                         <a class="nav-link text-white" href="#">Society</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white disabled" href="#" tabindex="-1" aria-disabled="true">Well being</a>
+                        <a class="nav-link text-white disabled" href="#" tabindex="-1" aria-disabled="true">Well
+                            being</a>
                     </li>
                 </ul>
             </div>
@@ -202,7 +467,7 @@
                 <h4 class="text-white"><b>Social networks</b></h4>
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a class="nav-link text-white active" href="#"><i
+                        <a class="nav-link text-white" href="#"><i
                                 class="fab fa-facebook-square fa-2x"></i>&nbsp;Facebook</a>
                     </li>
                     <li class="nav-item">
@@ -215,8 +480,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white disabled" href="#" tabindex="-1" aria-disabled="true"><i
-                                class="fab fa-diaspora fa-2x"></i>&nbsp;Summit of
-                            Solutions</a>
+                                class="fab fa-diaspora fa-2x"></i>&nbsp;Summit of Solutions</a>
                     </li>
                 </ul>
             </div>
@@ -225,7 +489,7 @@
                 <h4 class="text-white"><b>Legal notices</b></h4>
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a class="nav-link text-white active" href="#">Terms of Use</a>
+                        <a class="nav-link text-white" href="#">Terms of Use</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#">About Summit of Solution</a>
@@ -283,7 +547,7 @@
                         alt="DMCA.com Protection Status"></a>
             </p>
         </div>
-
+    </div>
     </div>
 
     <!-- Button trigger modal   
@@ -311,6 +575,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
     <!-- WARNING: Do not move or remove -->
