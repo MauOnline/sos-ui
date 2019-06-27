@@ -60,16 +60,17 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)"
+                                role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
                             <div class="dropdown-menu">
-                              <a class="dropdown-item" href="html/blog.html">Political development</a>
-                              <a class="dropdown-item" href="html/blog.html">Economy</a>
-                              <a class="dropdown-item" href="html/blog.html">Culture</a>
-                              <a class="dropdown-item" href="html/blog.html">Society</a>
-                              <!-- <div class="dropdown-divider"></div> -->
-                              <a class="dropdown-item" href="html/blog.html">Well being</a>
+                                <a class="dropdown-item" href="html/blog.html">Political development</a>
+                                <a class="dropdown-item" href="html/blog.html">Economy</a>
+                                <a class="dropdown-item" href="html/blog.html">Culture</a>
+                                <a class="dropdown-item" href="html/blog.html">Society</a>
+                                <!-- <div class="dropdown-divider"></div> -->
+                                <a class="dropdown-item" href="html/blog.html">Well being</a>
                             </div>
-                          </li>
+                        </li>
 
                         <li class="nav-item">
                             <a class="nav-link" href="html/resources.html">Resources</a>
@@ -274,8 +275,8 @@
 
             <div id="layout-right-content" class="col col-sm-3">
                 <!-- Alerts component headers-->
-                <h2 class="latest-alerts-title"><a href="html/html/alerts.html" alt="latest alerts" class="text-danger"><i
-                            class="fas fa-exclamation-triangle"></i>&nbsp;Latest alerts</a></h2>
+                <h2 class="latest-alerts-title"><a href="html/html/alerts.html" alt="latest alerts"
+                        class="text-danger"><i class="fas fa-exclamation-triangle"></i>&nbsp;Latest alerts</a></h2>
                 <!-- Alerts component items-->
                 <ul class="latest-alerts">
                     <li class=""><a href="html/#" alt="">Natural disaster in Haiti&nbsp;-&nbsp;<span
@@ -348,7 +349,8 @@
                         <a class="nav-link text-white" href="html/#">Society</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white disabled" href="html/#" tabindex="-1" aria-disabled="true">Well being</a>
+                        <a class="nav-link text-white disabled" href="html/#" tabindex="-1" aria-disabled="true">Well
+                            being</a>
                     </li>
                 </ul>
             </div>
@@ -389,10 +391,12 @@
                         <a class="nav-link text-white" href="html/#">Privacy policy</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white disabled" href="html/#" tabindex="-1" aria-disabled="false">Cookies</a>
+                        <a class="nav-link text-white disabled" href="html/#" tabindex="-1"
+                            aria-disabled="false">Cookies</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white disabled" href="html/#" tabindex="-1" aria-disabled="false">Contact
+                        <a class="nav-link text-white disabled" href="html/#" tabindex="-1"
+                            aria-disabled="false">Contact
                             SOS</a>
                     </li>
 
@@ -452,13 +456,43 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Submit an event</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    Modal body here
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Example select</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect2">Example multiple select</label>
+                            <select multiple class="form-control" id="exampleFormControlSelect2">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </form>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
