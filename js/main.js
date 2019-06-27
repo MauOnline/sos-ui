@@ -1,6 +1,6 @@
 $(function () {
     //Init scripts
-    console.log("Loaded !");
+    // console.log("Loaded !");
 
     //actNow-modal
     $('#actNow').on('change', function () {
@@ -10,6 +10,16 @@ $(function () {
         }
     });
 
+    //resource-modal
+    $('.resourceLink').on('click', function (e) {
+        $('#resource-modal').modal('show');
+    });
+
+    $('#resourceType').on('change', function (e) {
+        // alert()
+        $('.dummyList-one').toggle({ easing: 'swing' });
+        $('.dummyList-two').toggle({ easing: 'swing' });
+    });
 
     //Alert section, list-group behaviour
     $('#alerts-list a').on('click', function (e) {

@@ -40,3 +40,7 @@
 .event-overview{
     padding-left: .25em !important;
 }
+
+.hide{
+    display: none;
+}
